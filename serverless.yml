@@ -17,7 +17,7 @@ provider:
   name: aws
   runtime: nodejs8.10
   region: ca-central-1
-  memorySize: 512
+  memorySize: 128
   timeout: 600
   versionFunctions: false
   role: arn:aws:iam::833627784462:role/lambda-eni-attacher
